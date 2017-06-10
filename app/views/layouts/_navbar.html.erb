@@ -2,6 +2,12 @@
 	<nav class="navbar navbar-default navbar-static-top">
 	  <div class="container-fluid">
 		  <div class="navbar-header">
+		  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 	      <a class="navbar-brand" href="/">
 	        <span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>
 	        <span class="sr-only">Tasklist</span>
@@ -11,7 +17,9 @@
 		  <!-- メニュー項目 -->
 		  <div id="navbar" class="collapse navbar-collapse">
 		    <ul class="nav navbar-nav navbar-right">
-		    <li><a href="<%= new_task_path %>">新規タスクの作成</a></li>
+		    	<li><a href="<%= new_task_path %>">新規タスクの作成</a></li>
+		    	<li><a href="#">Signup</a></li>
+		    	<li><a href="#">ogin</a></li>
 		    </ul>
 		  </div>
 	  </div>
